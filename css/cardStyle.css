@@ -1,0 +1,93 @@
+body{
+  text-align: center;
+font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin: 0%;
+}
+
+@media only screen and (min-width: 768px) { 
+  
+
+.navBar{
+  background-color: rgb(231, 229, 226);
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+button{
+  margin-right: 30px;
+    margin-top: 30px ;
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    border-color: rgba(240, 248, 255, 0);
+    color: rgb(105, 31, 31);
+    background-color: rgba(241, 207, 95, 0.87);
+    font-weight: 700;
+  }
+
+.bigButton{
+  height: 90px;
+  width: 220px;
+  font-size: x-large;
+  border-radius: 60px;
+}
+
+.logo{
+padding-right: 30px;
+  height: 30px;
+}
+
+
+.card{
+  font-style: normal;
+  background-color: rgba(235, 235, 235, 0.603) ;
+  overflow: hidden;
+  max-width: 450px;
+  border-radius: 70px;
+  max-height: 31rem;
+}
+
+.card span{
+    padding-left: 5rem;
+    font-size: large;
+}
+
+.cardContent{
+  color: rgb(105, 31, 31);
+  text-align: left;
+  margin-left: 50px;
+  
+
+  }
+
+  .honeyImage{
+    height: 20rem;
+    width: 29rem;
+}
+
+.cartButton{
+  margin: 0%;
+  height: 40px;
+  width: 13rem;
+  margin-bottom: 15px;
+}
+
+h1{
+
+  text-align: left;
+  font-weight: 900;
+  font-size: 60px;
+  color: rgb(105, 31, 31);
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container2{
+  justify-content: space-around;
+  display: flex;
+}
+}
